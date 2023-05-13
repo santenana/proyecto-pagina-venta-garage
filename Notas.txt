@@ -1,0 +1,48 @@
+Html: es el esqueleto de toda pagina web, es la forma en como se estructura
+un sitio web
+
+CSS: es la forma en la que se añaden estilos a las diferentes secciones de
+un codigo de HTML
+
+Motores de Renderizado: Los navegadores lo que hacen es usar motores 
+que permiten pasar de los codigos de HTML y CSS a algo legible para cada navegador
+Estos motores hacen 5 pasos para pasar HTML a una pagina web legible
+
+	1. Pasa los archivos a objetos
+	2. Calcula los estilos
+	3. Calcula las dimensiones de cada nodo
+	4. Pinta las Cajas 
+	5. Toma las capas y las convierte en imagenes para mostrar
+
+________________________________________________________________________________________________
+
+Para crear un archivo que tenga HTML, CSS y Java Script se deben crear dentro 
+de una carpeta subcarpetas para la creacion de cada uno de los 
+lenguajes donde contiene cada uno de las diferentes secciones de una pagina web
+
+_________________________________________________________________________________________________
+
+HTML Semantico:
+
+Nos va a ayudar a usar las etiquetas correctas a la hora de crear una pagina web
+esto tambien nos ayuda a tener un codigo mas legible 
+
+Un <div> nos permite agrupar las diferentes secciones, esto es util siempre y cuando esto tenga
+sentido
+
+____________________________________________________________________________________________________
+
+Etiquetas de HTML
+
+HTML tiene etiquetas las cuales ayudan a dividir de manera mas efectiva los distintos
+elementos que tiene una pagina web
+
+
+____________________________________________________________________________________________________
+
+las pseudo clases sirven para modificar el compotamiento de algun elemento de la pagina
+web 
+
+
+
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background: rgb(215, 77, 215);
+        }
+        @media (min-width:300px) {
+            div{
+                background: red;
+            }
+        }
+        /* Con Qmedia puedo hacer que a medida que cambie e tamaño de la pantalla
+           lo haga tambien el backgournd, en este caso pantallas menores a 300 px 
+           se hacen de color rosado */
+
+        .Parrafo{
+            background: rgb(215, 77, 215);
+        }
+        @media (max-width:300px) {
+            .Parrafo{
+                background: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Hulaaa
+        
+    </div>
+    <p class="Parrafo">Prueba</p>
+</body>
+</html>

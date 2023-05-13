@@ -1,0 +1,54 @@
+<!--Z index funciona con ciertos tipo de posicionaminto
+    dependiendo del numero que se le ponga entre mayor sea el numero
+    mas adelante estan en la pagian web-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{ position: absolute;
+             background: palegoldenrod;}
+        .one{
+            z-index: 5;
+        }
+        .two{
+            z-index: 4;
+        }
+
+        .red{
+            width: 20px;
+            height: 20px;
+            background: red;
+            z-index: 4;
+        }
+        .blue{
+            width: 20px;
+            height: 20px;
+            background: rgb(55, 0, 255);
+            z-index: 3;
+        }
+        .yellow{
+            width: 20px;
+            height: 20px;
+            background: yellow;
+            z-index: 6;
+            top:-10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class = 'one'>Platzi</div>
+    <div class = 'two'>Master</div> -->
+    
+    <section>
+        <div class  = 'red'>red</div>
+        <div class = 'blue'>Blue
+            <div class = 'yellow'>yellow</div>
+        </div>
+    </section>
+</body>
+</html>

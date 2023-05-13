@@ -1,0 +1,39 @@
+* {
+    background: papayawhip;
+}
+
+.info li{
+    color: whitesmoke;
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+    background-color:black;       
+}
+
+a[href="https://es.wikipedia.org/wiki/Go-T%C5%8Dbun_no_Hanayome"]{
+    color: red;
+}
+
+div p{
+    color: lime;
+}
+
+
+div > div{
+    background: blue;
+}
+
+
+.es{
+    background: red;
+}
+
+
+p:hover{
+    color: skyblue
+}
+
+
+.Titulos p:nth-child(2){
+    color: violet;
+}
